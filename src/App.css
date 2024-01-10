@@ -1,0 +1,30 @@
+body {
+  background-color: #57463E;
+}
+
+#img-gatinho {
+  border-radius: 10%;
+}
+
+#button-gatinho {
+  position: absolute;
+  top: 24%;
+  right: 56%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 170px;
+  background-color: #8b381100;
+  border: none;
+}
+
+#div-gatinho {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+  #button-gatinho {
+    top: 20%;
+    right: 69%;
+  }
+}
